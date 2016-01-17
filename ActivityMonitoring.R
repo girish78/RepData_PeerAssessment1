@@ -101,7 +101,8 @@ dev.off()
 xyplot(average ~ interval| Weekday, data = PAD9, type = "l",xlab = "Interval",ylab = "Number of steps",layout=c(1,2))
 
 
-
+xyplot(average ~ interval| Weekday, data = PAD9, type = "l",xlab = "Interval",ylab = "Number of  
+           steps",layout=c(1,2))
 
 
 
